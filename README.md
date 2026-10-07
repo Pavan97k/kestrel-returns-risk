@@ -73,34 +73,3 @@ Files
 Privacy
 The public repository contains synthetic demo assets only.
 Kestrel customer/order data, production model artifacts, predictions and internal operational documents are intentionally excluded from the public repository.
-
-
-### Why we're changing your README
-
-Your old README says:
-
-> `model.cbm — trained CatBoost model`
-
-and
-
-> `data/customers.csv`, `data/products.csv`
-
-But those **aren't actually in the GitHub repository** because they're ignored/private.
-
-That could confuse the evaluator.
-
-The new README instead tells them:
-
-```text
-clone repo
-   ↓
-pip install
-   ↓
-python create_demo_assets.py
-   ↓
-synthetic model/data created
-   ↓
-uvicorn
-   ↓
-working application
-
