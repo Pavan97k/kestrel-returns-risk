@@ -1,0 +1,26 @@
+# Client / operational data
+*.csv
+data/
+ops-policy.pdf
+
+# Trained model artifacts
+*.cbm
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,31 @@
+{
+  "primary_metric": "ROC-AUC",
+  "temporal_holdouts": [
+    {
+      "validation_month": "2026-03",
+      "auc": 0.7702,
+      "average_precision": 0.2832
+    },
+    {
+      "validation_month": "2026-04",
+      "auc": 0.7707,
+      "average_precision": 0.4129
+    },
+    {
+      "validation_month": "2026-05",
+      "auc": 0.7824,
+      "average_precision": 0.3894
+    },
+    {
+      "validation_month": "2026-06",
+      "auc": 0.7794,
+      "average_precision": 0.4572
+    }
+  ],
+  "mean_auc": 0.7757,
+  "auc_std": 0.0053,
+  "target_rate_train_after_dedup": 0.11424219345011424,
+  "train_rows_after_dedup": 10504,
+  "test_rows": 2096,
+  "expected_hidden_auc_range": "0.75\u20130.80"
+}
